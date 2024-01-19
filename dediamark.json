@@ -1,0 +1,49 @@
+{
+    "devices": {
+            "computer": [{  "name": "Matebook",
+                            "company": "Huawei",
+                            "inches": 13,
+                            "stock": true,
+                            "price": {  "quantity": 780,
+                                        "currency": "€"
+                                    },
+                            "internal_info": "C:\\Documents\\files\\matebook.json",
+                            "item count":1
+                        },
+                        {   "name": "Titan",
+                            "company": "Slimbook",
+                            "inches": 15.6,
+                            "stock": true,
+                            "price": {  "quantity": 1949,
+                                        "currency": "€"
+                                    },
+                            "slogan":[  {"slogan1":"Slimbook Titan: Unleash power in Every Pixel"},
+                                        {"slogan2":"Slimbook titan: Powerhouse Performance"}
+                                    ],
+                            "item count":2
+                        }],
+            "tablet": [{    "name": "Matepad",
+                            "company": "Huawei",
+                            "inches": 10.4,
+                            "stock": false,
+                            "price": {  "quantity": null,
+                                        "currency": "€"
+                                    },
+                            "characteristics": null
+                        }],
+            "smartphone": [{  "name": "P50 pocket",
+                              "company": "Huawei",
+                              "inches": 9,
+                              "stock": true,
+                              "price": {  "quantity": 999,
+                                          "currency": "€",
+                                          "discount": "3%"
+                                        },
+                              "characteristics": {    "battery": "5000mAh",
+                                                      "screen": "Super AMOLED plus",
+                                                      "connexion": "USB-C"
+                                                },
+                            "item count":4
+                            }]
+                }
+}
